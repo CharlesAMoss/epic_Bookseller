@@ -10,7 +10,9 @@ bookseller_admin
 readmore
 
 ```
-// database admin export info
+GRANT ALL PRIVILEGES ON *.* TO 'bookseller_admin'@'localhost' IDENTIFIED BY PASSWORD '*FD08D55A69C7AA12F59338A93F672D1208CA962D' WITH GRANT OPTION;
+
+GRANT ALL PRIVILEGES ON `bookseller`.* TO 'bookseller_admin'@'localhost' WITH GRANT OPTION;
 ```
 
 admin
