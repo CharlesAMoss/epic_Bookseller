@@ -9,6 +9,8 @@ _Users can read and write reviews of books._
 bookseller_admin
 readmore
 
+##### If you paste the below code into phpmyadmin's console the above "bookseller_admin" user will be created/imported for you. 
+
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'bookseller_admin'@'localhost' IDENTIFIED BY PASSWORD '*FD08D55A69C7AA12F59338A93F672D1208CA962D' WITH GRANT OPTION;
 
